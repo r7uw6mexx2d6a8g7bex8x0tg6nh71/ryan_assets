@@ -1,0 +1,1 @@
+(()=>{"use strict";["contextmenu","dragstart"].forEach((e=>document.addEventListener(e,(e=>e.preventDefault())))),document.addEventListener("keydown",(e=>{const t=e.key.toLowerCase();("F12"===e.key||e.ctrlKey&&e.shiftKey&&["i","j","c"].includes(t)||e.ctrlKey&&"u"===t)&&e.preventDefault()}))})();
